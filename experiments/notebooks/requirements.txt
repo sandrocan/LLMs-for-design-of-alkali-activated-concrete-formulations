@@ -1,0 +1,5 @@
+notebook
+OpenAI
+python-dotenv
+ipywidgets
+pandas
