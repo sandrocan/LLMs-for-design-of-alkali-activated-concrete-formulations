@@ -3,3 +3,5 @@ OpenAI
 python-dotenv
 ipywidgets
 pandas
+numpy
+matplotlib
