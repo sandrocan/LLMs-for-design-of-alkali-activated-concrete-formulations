@@ -2,6 +2,6 @@ LLM-s-can-Design-Sustainable-Concrete-a-Systematic-Benchmark-Code-/
 .env
 venv/
 .DS_Store
-results/
+experiments/results/
 .ipynb_checkpoints/
 images/
