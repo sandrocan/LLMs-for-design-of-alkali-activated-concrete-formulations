@@ -5,3 +5,4 @@ ipywidgets
 pandas
 numpy
 matplotlib
+tiktoken
