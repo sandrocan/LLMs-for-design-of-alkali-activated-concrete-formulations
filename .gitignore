@@ -5,3 +5,5 @@ venv/
 results/
 .ipynb_checkpoints/
 images/
+.idea
+*.iml
