@@ -40,13 +40,13 @@ ollama run llama3:8b-instruct-q8_0
 
 #### Specify Environment Variables
 
-Create a `.env` file in `LLMs-for-design-of-alkali-activated-concrete-formulations/experiments/notebooks` and specify the URL over which the llama3 model is available. When running ollama locally, the URL is usually `http://localhost:11434/v1`
+Create a `.env` file in `LLMs-for-design-of-alkali-activated-concrete-formulations/experiments/notebooks` and specify the URL over which the llama3 model is available with the enviroment variable `LLAMA3_SERVER_URL`. When running the model locally using ollama, the standard URL is `http://localhost:11434/v1`
 
 ```
 LLAMA3_SERVER_URL="http://localhost:11434/v1"
 ```
 
-If you want to utilize GPT-3.5 or GPT-4, an OpenAI API Key is required. Specify your OpenAI API Key in your `.env` file
+If you want to utilize GPT-3.5 or GPT-4, an OpenAI API Key is required. Specify the OpenAI API Key in your `.env` file with enviroment variable `OPENAI_API_KEY`
 
 ```
 OPENAI_API_KEY={YOUR_OPENAI_API_KEY}
@@ -60,7 +60,7 @@ jupyter notebook experiments/notebooks/main.ipynb
 
 ### Configure And Run Experiments
 
-To run the experiments, execute each cell consecutively. 
+To run the experiments, execute each cell in the notebook consecutively. 
 
 1. Specify the details of the experiments you would like to run
 
@@ -81,7 +81,7 @@ To run the experiments, execute each cell consecutively.
 
 ## Validation Dataset And Experiment Data
 
-The dataset used for validation is stored in `LLMs-for-design-of-alkali-activated-concrete-formulations/experiments/data/DiscoveryData_Sample.csv`. The data generated during each development cycle of an experiment is saved under `LLMs-for-design-of-alkali-activated-concrete-formulations/experiments/results`
+The dataset used for validation is stored in `LLMs-for-design-of-alkali-activated-concrete-formulations/experiments/data/DiscoveryData_Sample.csv` and stems from [Rao et al](https://www.tandfonline.com/doi/abs/10.1080/14488353.2018.1450716). The data generated during each development cycle of an experiment is saved under `LLMs-for-design-of-alkali-activated-concrete-formulations/experiments/results`
 
 ## Contact
 
