@@ -1,4 +1,4 @@
-# LLMs For Materials And Chemistry Hackathon - llama3 For The Design of Alkali-Activated-Concrete Formulations
+# LLMs For Materials And Chemistry Hackathon - llama3 For The Design of Alkali-Activated Concrete Formulations
 
 ![concrete-llama](https://github.com/sandrocan/LLMs-for-design-of-alkali-activated-concrete-formulations/assets/53880336/d69120ef-f7c3-4227-93aa-e6c7992ed552)
 
