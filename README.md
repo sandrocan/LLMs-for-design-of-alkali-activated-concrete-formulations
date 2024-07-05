@@ -32,10 +32,10 @@ pip install -r experiments/notebooks/requirements.txt
 
 [ollama](https://github.com/ollama/ollama)
 
-#### Run ollama 
+#### Run llama3 using ollama
 
 ```
-ollama run llama3
+ollama run llama3:8b
 ```
 
 #### Specify Environment Variables
