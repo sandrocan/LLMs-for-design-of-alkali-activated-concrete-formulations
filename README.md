@@ -1,4 +1,4 @@
-# LLMs for Materials and Chemistry Hackathon - llama3 For The Design of Alkali-Activated-Concrete Formulations
+# LLMs For Materials And Chemistry Hackathon - llama3 For The Design of Alkali-Activated-Concrete Formulations
 
 ![concrete-llama](https://github.com/sandrocan/LLMs-for-design-of-alkali-activated-concrete-formulations/assets/53880336/d69120ef-f7c3-4227-93aa-e6c7992ed552)
 
@@ -28,14 +28,14 @@ source experiments/notebooks/venv/bin/activate
 pip install -r experiments/notebooks/requirements.txt
 ```
 
-#### Install ollama
+#### Install ollama and pull a llama3 model
 
 [ollama](https://github.com/ollama/ollama)
 
-#### Run llama3 using ollama
+#### Run llama3 model locally using ollama
 
 ```
-ollama run llama3:8b
+ollama run llama3:8b-instruct-q8_0
 ```
 
 #### Specify Environment Variables
@@ -85,13 +85,13 @@ The dataset used for validation is stored in `LLMs-for-design-of-alkali-activate
 
 ## Contact
 
-Dr. Tehseen Rug : tehseen.rug@iteratec.com
+[Dr. Tehseen Rug](https://github.com/RugTehseen) : tehseen.rug@iteratec.com 
 
-Dr. Christoph Völker : christoph.voelker@iteratec.com
+[Dr. Christoph Völker](https://github.com/iterateccvoelker) : christoph.voelker@iteratec.com
 
-Alexander Mooshammer : alexander.mosshammer@iteratec.com
+Alexander Mooshammer() : alexander.mosshammer@iteratec.com
 
-Alessandro Canalicchio : alessandro.canalicchio@iteratec.com
+Alessandro Canalicchio(https://github.com/sandrocan) : alessandro.canalicchio@iteratec.com
 
 
 
