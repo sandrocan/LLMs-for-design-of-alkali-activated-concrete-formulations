@@ -4,7 +4,7 @@
 
 ## About The Project
 
-This is the repository containing the submission made by the Llama 3 Material Scientist Team for the LLMs for Materials and Chemistry Hackathon. We demonstrated that small open-source models such as Llama3 8B 🐑, which can run on consumer laptops, can be used for designing eco-friendly and high-performing building materials. This breakthrough opens up the possibility of designing new materials in natural language from the comfort of your home 🏠.
+This is the repository containing the submission made by the **Llama 3 Material Scientist Team** for the **LLMs for Materials and Chemistry** Hackathon. We demonstrated that small open-source models such as Llama3 8B 🐑, which can run on consumer laptops, can be used for designing eco-friendly and high-performing building materials. This breakthrough opens up the possibility of designing new materials in natural language from the comfort of your home 🏠.
 
 ## Getting Started
 
@@ -46,7 +46,7 @@ Create a `.env` file in `LLMs-for-design-of-alkali-activated-concrete-formulatio
 LLAMA3_SERVER_URL="http://localhost:11434/v1"
 ```
 
-Iif you want to utilize GPT-3.5 or GPT-4, an OpenAI API Key is required. Specify your OpenAI API Key in your `.env` file
+If you want to utilize GPT-3.5 or GPT-4, an OpenAI API Key is required. Specify your OpenAI API Key in your `.env` file
 
 ```
 OPENAI_API_KEY={YOUR_OPENAI_API_KEY}
@@ -85,13 +85,13 @@ The dataset used for validation is stored in `LLMs-for-design-of-alkali-activate
 
 ## Contact
 
-[Dr. Tehseen Rug](https://github.com/RugTehseen) : tehseen.rug@iteratec.com 
+- [Dr. Tehseen Rug](https://github.com/RugTehseen) : tehseen.rug@iteratec.com 
 
-[Dr. Christoph Völker](https://github.com/iterateccvoelker) : christoph.voelker@iteratec.com
+- [Dr. Christoph Völker](https://github.com/iterateccvoelker) : christoph.voelker@iteratec.com
 
-Alexander Mooshammer() : alexander.mosshammer@iteratec.com
+- [Alexander Mooshammer](https://github.com/mosshammer) : alexander.mosshammer@iteratec.com
 
-Alessandro Canalicchio(https://github.com/sandrocan) : alessandro.canalicchio@iteratec.com
+- [Alessandro Canalicchio](https://github.com/sandrocan) : alessandro.canalicchio@iteratec.com
 
 
 
