@@ -1,7 +1,8 @@
-# LLMs For Materials And Chemistry Hackathon - llama3 For The Design of Alkali-Activated Concrete Formulations
+# LLMs For Materials And Chemistry Hackathon - llama3 and phi3 For The Design of Alkali-Activated Concrete Formulations
 
-![346103437-d69120ef-f7c3-4227-93aa-e6c7992ed552](https://github.com/user-attachments/assets/71294035-aff0-4648-a313-8b08db996c04)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/71294035-aff0-4648-a313-8b08db996c04">
+</p>
 ## About The Project
 
 This is the repository containing the submission made by the **Llama 3 Material Scientist Team** for the **LLMs for Materials and Chemistry** Hackathon. We demonstrated that small open-source models such as Llama3 8B 🐑, which can run on consumer laptops, can be used for designing eco-friendly and high-performing building materials. This breakthrough opens up the possibility of designing new materials in natural language from the comfort of your home 🏠.
@@ -28,7 +29,7 @@ source experiments/notebooks/venv/bin/activate
 pip install -r experiments/notebooks/requirements.txt
 ```
 
-#### Install ollama and pull a model (e.g. llama3)
+#### Install ollama and pull a model (e.g. llama3, phi3)
 
 [ollama](https://github.com/ollama/ollama)
 
@@ -40,10 +41,10 @@ ollama run llama3:8b-instruct-q8_0
 
 #### Specify Environment Variables
 
-Create a `.env` file in `LLMs-for-design-of-alkali-activated-concrete-formulations/experiments/notebooks` and specify the URL over which the ollama model is available with the enviroment variable `LLAMA3_SERVER_URL`. When running the model locally using ollama, the standard URL is `http://localhost:11434/v1`
+Create a `.env` file in `LLMs-for-design-of-alkali-activated-concrete-formulations/experiments/notebooks` and specify the URL over which the ollama model is available with the enviroment variable `LLAMA3_SERVER_URL`. When running the model locally using ollama, the standard URL is `http://localhost:11434/v1/`
 
 ```
-LLAMA3_SERVER_URL="http://localhost:11434/v1"
+LLAMA3_SERVER_URL="http://localhost:11434/v1/"
 ```
 
 If you want to utilize GPT-3.5 or GPT-4, an OpenAI API Key is required. Specify the OpenAI API Key in your `.env` file with enviroment variable `OPENAI_API_KEY`
@@ -77,6 +78,16 @@ To run the experiments, execute each cell in the notebook consecutively.
 5. Run the experiments
 
 ![image](https://github.com/sandrocan/LLMs-for-design-of-alkali-activated-concrete-formulations/assets/53880336/ace0ea7b-a5e6-4bca-b063-c1c1d2c10d50)
+
+6. Plot the mean and cumulative compressive strengths of the predictions made by the model configuration during the experiments. The plots are saved under  `LLMs-for-design-of-alkali-activated-concrete-formulations/experiments/notebooks/results/plots`.
+
+![image](https://github.com/user-attachments/assets/74b00db5-6496-47ea-abba-11306ab8fde1)
+
+7. Additionally, you may generate tables containing the lower bound and mean values of the selected model configurations. The generated tables are saved under `LLMs-for-design-of-alkali-activated-concrete-formulations/experiments/notebooks/results/tables`
+
+![image](https://github.com/user-attachments/assets/28173fd0-94b9-42f0-b35f-3cc5768112c1)
+
+
 
 
 ## Validation Dataset And Experiment Data
