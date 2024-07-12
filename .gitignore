@@ -8,6 +8,6 @@ images/
 .idea
 *.iml
 
-!results/hackathon_results
-!results/plots/hackathon
-!results/tables
+!experiments/results/hackathon_results
+!experiments/results/plots/hackathon
+!experiments/results/tables
