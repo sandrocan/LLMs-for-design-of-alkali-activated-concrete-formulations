@@ -1,4 +1,4 @@
-# LLMs For Materials And Chemistry Hackathon - llama3 For The Design of Alkali-Activated Concrete Formulations
+# LLMs For Materials And Chemistry Hackathon - llama3 and phi3 For The Design of Alkali-Activated Concrete Formulations
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/71294035-aff0-4648-a313-8b08db996c04">
