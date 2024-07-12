@@ -1,6 +1,6 @@
 # LLMs For Materials And Chemistry Hackathon - llama3 For The Design of Alkali-Activated Concrete Formulations
 
-![concrete-llama](https://github.com/sandrocan/LLMs-for-design-of-alkali-activated-concrete-formulations/assets/53880336/d69120ef-f7c3-4227-93aa-e6c7992ed552)
+![346103437-d69120ef-f7c3-4227-93aa-e6c7992ed552](https://github.com/user-attachments/assets/71294035-aff0-4648-a313-8b08db996c04)
 
 ## About The Project
 
@@ -28,11 +28,11 @@ source experiments/notebooks/venv/bin/activate
 pip install -r experiments/notebooks/requirements.txt
 ```
 
-#### Install ollama and pull a llama3 model
+#### Install ollama and pull a model (e.g. llama3)
 
 [ollama](https://github.com/ollama/ollama)
 
-#### Run llama3 model locally using ollama
+#### Run model locally using ollama (e.g. llama3)
 
 ```
 ollama run llama3:8b-instruct-q8_0
@@ -40,7 +40,7 @@ ollama run llama3:8b-instruct-q8_0
 
 #### Specify Environment Variables
 
-Create a `.env` file in `LLMs-for-design-of-alkali-activated-concrete-formulations/experiments/notebooks` and specify the URL over which the llama3 model is available with the enviroment variable `LLAMA3_SERVER_URL`. When running the model locally using ollama, the standard URL is `http://localhost:11434/v1`
+Create a `.env` file in `LLMs-for-design-of-alkali-activated-concrete-formulations/experiments/notebooks` and specify the URL over which the ollama model is available with the enviroment variable `LLAMA3_SERVER_URL`. When running the model locally using ollama, the standard URL is `http://localhost:11434/v1`
 
 ```
 LLAMA3_SERVER_URL="http://localhost:11434/v1"
