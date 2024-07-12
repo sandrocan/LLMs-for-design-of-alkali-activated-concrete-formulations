@@ -7,3 +7,7 @@ results/
 images/
 .idea
 *.iml
+
+!results/hackathon_results
+!results/plots/hackathon
+!results/tables
