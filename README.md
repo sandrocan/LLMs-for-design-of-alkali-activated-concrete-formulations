@@ -3,6 +3,7 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/71294035-aff0-4648-a313-8b08db996c04">
 </p>
+
 ## About The Project
 
 This is the repository containing the submission made by the **Llama 3 Material Scientist Team** for the **LLMs for Materials and Chemistry** Hackathon. We demonstrated that small open-source models such as Llama3 8B 🐑, which can run on consumer laptops, can be used for designing eco-friendly and high-performing building materials. This breakthrough opens up the possibility of designing new materials in natural language from the comfort of your home 🏠.
